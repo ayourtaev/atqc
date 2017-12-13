@@ -33,3 +33,8 @@ vagrant **VM**, specified with IP **192.168.33.10** and name **monty_python**
 ----------------------------
 ### day_2
 
+#### _Unit test_
+
+* For unit test running `pytest -s -h tests`
+----------------------------
+### day_3
