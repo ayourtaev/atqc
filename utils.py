@@ -6,7 +6,7 @@ def how_many_fibo_do_u_want(n):
 
 
 def make_permutation_uniq(lst):
-    [lst.remove(item) for item in lst if (item[1], item[0] in lst)]
+    [lst.remove(item) for item in lst if (item[1], item[0],) in lst]
     return lst
 
 
