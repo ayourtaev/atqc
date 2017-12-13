@@ -30,3 +30,6 @@ vagrant **VM**, specified with IP **192.168.33.10** and name **monty_python**
   modules get like an argument any collections ( list or tuple ) the second argument is the desired amount.
 
 * The function `make_permutation_uniq` remove non uniq pairs.
+----------------------------
+### day_2
+
