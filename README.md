@@ -38,3 +38,25 @@ vagrant **VM**, specified with IP **192.168.33.10** and name **monty_python**
 * For unit test running `pytest -s -h tests`
 ----------------------------
 ### day_3
+#### _Structuring project_
+
+```
+├── app_tests
+├── cores
+│   ├── fibonacci.py
+│   └── numbers_pairs.py
+├── tests
+│   ├── test_fibo.py
+│   └── test_permutation.py
+├── main.py
+├── README.mb
+└── utils.py
+```
+
+* U should run `main.py` with help of key an now like `-f` and `-n`
+  * `-f` or `--fib` if u wanna run fibbo func for example `python main.py --fib 5` u get something like this:
+    ` args: (5,) kwargs: {} [0, 1, 1, 2, 3]`
+  * `-n` or `--num` if u wanna get a pairs
+  * `--help` can get u more information
+----------------------------
+### day_4
